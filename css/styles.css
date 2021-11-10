@@ -34,3 +34,72 @@ img {
     max-width: 100%; /* Bredde må maks fylde 100% */
     height: auto; /* Højden skal tilpasse sig */
 }
+
+.bg-primary{
+    background-color: lightcoral;
+}
+.text-primary{
+    color: red;
+}
+.text-center{
+    color: white;
+}
+.bg-secondary{
+    background-color: lightgrey;
+}
+
+.container-fluid{
+    height: 250px;
+
+}
+
+.image-large{
+    min-height: 250px;
+    background-color: lightcoral;
+}
+
+.image-small{
+    width: 400px;
+    height: 500px;
+    background-color: lightgrey;
+}
+
+.image-small-small{
+    width: 100px;
+    height: 200px;
+    color: red;
+}
+
+.container >.row{
+    margin-top: 10rem;
+}
+
+
+.container, .row [class*='col']{
+    transition: max-width .3s ease-in-out;
+}
+.navbar-container{
+    position: absolute;
+}
+.nav{
+    transition: max-height .2s ease-in-out;
+    max-height: 0;
+    overflow: hidden;
+}
+
+.nav.show{
+    transition: max-height .2s ease-in-out;
+    max-height: 100vh;
+}
+
+.toggle{
+    cursor:pointer;
+}
+
+@media all and (min-width: 992px){
+    .nav{
+        max-height: none;
+    }
+
+}
+
