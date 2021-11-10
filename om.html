@@ -14,11 +14,12 @@
 
     <!-- Metatags der fortæller at søgemaskiner er velkomne, hvem der udgiver siden og copyright information -->
     <meta name="robots" content="All">
-    <meta name="author" content="Udgiver">
-    <meta name="copyright" content="Information om copyright">
+    <meta name="author" content="Amanda, Loay, Mikkel, Sophie">
+    <meta name="copyright" content="Skoleprojekt">
 
     <!-- Sikrer man kan benytte CSS ved at tilkoble en CSS fil -->
-    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <link href="css/mmdgrid.css" rel="stylesheet" type="text/css">
+    <link href="css/amanda_styles.css" rel="stylesheet" type="text/css">
 
     <!-- Sikrer den vises korrekt på mobil, tablet mv. ved at tage ift. skærmstørrelse - bliver brugt til responsive websider -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -28,6 +29,137 @@
 <body>
 
 <!-- Her skal sidens indhold ligge -->
+
+<!--Topbar-->
+<div class="container-fluid h-auto navbar-container">
+    <div class="navbar row p-3 bg-secondary">
+
+        <div class="col-4">LOGO</div>
+
+        <div class="col-8 d-lg-none">
+            <div class="toggle d-flex justify-content-end">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+
+        <div class="nav col-12 col-lg-8">
+            <div class="row justify-content-end">
+                <div class="col-lg-auto p-3"> <a href="#">Link</a></div>
+                <div class="col-lg-auto p-3"> <a href="#">Link</a></div>
+                <div class="col-lg-auto p-3"> <a href="#">Link</a></div>
+                <div class="col-lg-auto p-3"> <a href="#">Link</a></div>
+                <div class="col-lg-auto p-3"> <a href="#">Link</a></div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<div class="container-fluid">
+    <div class="row h-100 align-items-center bg-primary">
+        <div class="col text-center">
+            <a href="#">Klik på mig</a>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row text-secondary">
+        <div class="col text-center">
+            <div><i class="fas fa-cat fa-3x"></i></div>
+            <div class="mt-3"><a href="#">Miaw</a></div>
+        </div>
+
+        <div class="col text-center">
+            <div><i class="fas fa-dog fa-3x"></i></div>
+            <div class="mt-3"><a href="#">Vuf</a></div>
+        </div>
+
+        <div class="col text-center">
+            <div><i class="fas fa-frog fa-3x"></i></div>
+            <div class="mt-3"><a href="#">Kvæk</a></div>
+        </div>
+    </div>
+
+    <div class="row gy-3">
+        <div class="col-md-6">
+            <div class="image-large h-100"></div>
+        </div>
+
+        <div class="col-md-6">
+            <h3>Miaw</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam aliquid aspernatur at delectus dolore doloribus facilis illum iusto labore laborum minima nam natus provident quam quod rerum sed sunt, unde.</p>
+            <p class="mt-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam aliquid aspernatur at delectus dolore doloribus facilis illum iusto labore laborum minima nam natus provident quam quod rerum sed sunt, unde.</p>
+
+            <div class="row gy-3 mt-3">
+                <div class="col-auto"><div class="image-small"></div></div>
+                <div class="col-auto"><div class="image-small"></div></div>
+                <div class="col-auto"><div class="image-small"></div></div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="row gy-3">
+        <div class="col-md-6">
+            <h3>Vuf</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam aliquid aspernatur at delectus dolore doloribus facilis illum iusto labore laborum minima nam natus provident quam quod rerum sed sunt, unde.</p>
+            <p class="mt-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam aliquid aspernatur at delectus dolore doloribus facilis illum iusto labore laborum minima nam natus provident quam quod rerum sed sunt, unde.</p>
+
+            <div class="row gy-3 mt-3">
+                <div class="col-auto"><div class="image-small"></div></div>
+                <div class="col-auto"><div class="image-small"></div></div>
+                <div class="col-auto"><div class="image-small"></div></div>
+            </div>
+
+        </div>
+        <div class="col-md-6">
+            <div class="image-large h-100"></div>
+        </div>
+    </div>
+
+    <div class="row row-cols-1 row-cols-lg-3 gy-5">
+        <div class="col">
+            <h3>Kvæk</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam aliquid aspernatur at delectus dolore doloribus facilis illum iusto labore laborum minima nam natus provident quam quod rerum sed sunt, unde.</p>
+            <p class="mt-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam aliquid aspernatur at delectus dolore doloribus facilis illum iusto labore laborum minima nam natus provident quam quod rerum sed sunt, unde.</p>
+
+            <div class="image-large mt-3"></div>
+        </div>
+
+        <div class="col">
+            <h3>Kvæk</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam aliquid aspernatur at delectus dolore doloribus facilis illum iusto labore laborum minima nam natus provident quam quod rerum sed sunt, unde.</p>
+            <p class="mt-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam aliquid aspernatur at delectus dolore doloribus facilis illum iusto labore laborum minima nam natus provident quam quod rerum sed sunt, unde.</p>
+
+            <div class="image-large mt-3"></div>
+        </div>
+
+        <div class="col">
+            <h3>Kvæk</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam aliquid aspernatur at delectus dolore doloribus facilis illum iusto labore laborum minima nam natus provident quam quod rerum sed sunt, unde.</p>
+            <p class="mt-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam aliquid aspernatur at delectus dolore doloribus facilis illum iusto labore laborum minima nam natus provident quam quod rerum sed sunt, unde.</p>
+
+            <div class="image-large mt-3"></div>
+        </div>
+    </div>
+
+</div>
+
+<!--footer-->
+<div class="container-fluid mt-5">
+    <div class="row h-100 align-items-center bg-primary">
+        <div class="col text-center">
+            @Miaw Vuf Kvæk
+        </div>
+    </div>
+</div>
+
+<script>
+    const toggle = document.querySelector('.toggle');
+    const nav = document.querySelector('.nav');
+    toggle.addEventListener('click', () => nav.classList.toggle ('show'));
+</script>
 
 </body>
 </html>
