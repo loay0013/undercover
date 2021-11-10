@@ -25,24 +25,58 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
+
+
 <!-- i <body> har man alt indhold på siden som brugeren kan se -->
 <body>
-<!-- Her skal sidens indhold ligge -->
 
-<!--Div der indeholder hele vores grid og definerer sidens mål-->
+<!--Div der indeholder hele sidens grid og definerer sidens mål-->
 <div>
-    <!--Div der indeholder hele vores grid. Den er parent til alle "grid bokse"-->
-    <div>
-        <!--Topbar-->
-        <div>
-            <!--Billede-->
-            <div>
 
-            </div>
+    <!--Div der indeholder hele sidens grid. Den er parent til alle "grid bokse"-->
+    <div>
+
+        <!--Topbar-->
+        <div></div>
+
+        <!--Farvet boks med teksten "Kontakt os"-->
+        <div>
+            <p>Kontakt os</p>
         </div>
+
+        <!--Telefonnummer og mail-->
+        <div>
+            <p>+45 55 55 55 55</p>
+            <p>kontakt@oceancase.dk</p>
+        </div>
+
+        <div>
+            <p>Har du spoørgsmål?</p>
+            <form method="get" action="index.html">
+                <label for="navn">Navn</label>
+                <input id="navn" name="navn" type="text" value="">
+
+                <br>
+
+                <label for="email">Email</label>
+                <input name="name" type="email" id="email" value="">
+
+                <br>
+
+                <label for="besked">Besked</label>
+                <textarea id="besked" name="beskrivelse" ></textarea>
+
+                <br>
+
+                <input type="submit" value="Send formular">
+            </form>
+        </div>
+
+        <!--Footer-->
+        <div></div>
+
     </div>
 </div>
-
 
 </body>
 </html>
