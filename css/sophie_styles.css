@@ -52,6 +52,14 @@ img {
     height: 250px;
 
 }
+
+.container-fluid-2{
+    height: 100px;
+}
+.container-fluid-3{
+    height: 150px;
+}
+
 .text-secondary{
     flex-direction: column;
     display: flex;
@@ -98,6 +106,8 @@ img {
 .toggle{
     cursor:pointer;
 }
+
+
 
 @media all and (min-width: 322px)
     .container{
