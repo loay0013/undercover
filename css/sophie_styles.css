@@ -83,21 +83,18 @@ img {
 
 }
 
-.image-small2{
-    width: 150px;
-    height: 400px;
-    background-color: lightgrey;
-    align-content: center;
+.salgsbillede{
     display: flex;
-    flex-direction: column;
-
-
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
 }
+
 
 .image-small-small{
     width: 75px;
     height: 25px;
-    background-color: red;
+    background-color: lightgreen;
     display: flex;
 }
 
@@ -154,6 +151,11 @@ img {
 }
 .image-small-small,.p{
     align-items: center;
+
+}
+
+.kurv{
+    color: #f7fbff;
 }
 
 
