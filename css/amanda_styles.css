@@ -34,3 +34,20 @@ img {
     max-width: 100%; /* Bredde må maks fylde 100% */
     height: auto; /* Højden skal tilpasse sig */
 }
+
+
+.bg-primary{
+    background-color: #f7fbff;
+}
+
+.text-primary{
+    color: #1d1d1d;
+}
+
+.bg-secondary{
+    background-color: #9fe386;
+}
+
+.text-secondary{
+    color: #f7fbff;
+}
