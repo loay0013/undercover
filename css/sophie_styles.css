@@ -73,16 +73,32 @@ img {
 }
 
 .image-small{
-    width: 200px;
-    height: 250px;
+    width: 150px;
+    height: 400px;
     background-color: lightgrey;
    align-content: center;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.image-small2{
+    width: 150px;
+    height: 400px;
+    background-color: lightgrey;
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+
+
 }
 
 .image-small-small{
-    width: 50px;
+    width: 75px;
     height: 25px;
-    color: red;
+    background-color: red;
+    display: flex;
 }
 
 
@@ -105,6 +121,39 @@ img {
 
 .toggle{
     cursor:pointer;
+}
+
+
+.coverbillede1{
+    height: 250px;
+    width: 175px;
+
+}
+
+.coverbillede2{
+    height: 250px;
+    width: 175px;
+}
+
+.coverbillede3{
+    height: 250px;
+    width: 175px;
+}
+
+.coverbillede4{
+    height: 250px;
+    width: 175px;
+}
+
+.image-small,.p{
+    align-items: center;
+
+}
+.image-small2,.p{
+    align-items: center;
+}
+.image-small-small,.p{
+    align-items: center;
 }
 
 
