@@ -92,6 +92,19 @@ img {
 .container > .row{
     margin-top: 10rem;
 }
+.h11{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size:30px;
+    color: #333333;
+}
+.p11{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 16px;
+    color: #333333;
+}
+.colar{
+    background-color:#CBD6E7;
+}
 
 @media all and (min-width:992px ){
     .nav{
