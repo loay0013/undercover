@@ -105,6 +105,35 @@ img {
 .colar{
     background-color:#CBD6E7;
 }
+.ny{
+    background-image:url(../images/Sunandwaves2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 150px;
+    margin-top: 0.8rem;
+}
+.text{
+    color: #FFFFFF;
+    font-size: 45px;
+    font-family: 'Pacifico', cursive;
+}
+.text2{
+    color: #FFFFFF;
+    font-size: 21px;
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+.btn1 {
+    background-color: #E4D0CD;
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+.input{
+    border: 1px solid;
+    border-radius: 5px;
+}
 
 @media all and (min-width:992px ){
     .nav{
