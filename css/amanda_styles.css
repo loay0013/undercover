@@ -42,29 +42,28 @@ img {
     height: auto; /* Højden skal tilpasse sig */
 }
 
-/*Farver*/
-.bg-secondary{
-    background-color: #A6CB9C;
-}
 
+/*Farver*/
 .text-primary{
     color: #333333;
 }
-
 .text-secondary{
     color: #FFFFFF;
 }
 
 /*Skrifttyper*/
-.josefin_sans_font{
+.josefine_sans_regular{
     font-family: "Josefin Sans";
 }
-
-.sans_serif_font{
-    font-family: sans-serif;
+.josefine_sans_light{
+    font-family: "Josefin Sans Light";
+}
+.josefine_sans_medium{
+    font-family: "Josefin Sans Medium";
 }
 
-/*Topbar*/
+
+/*------------------------------------Topbar---------------------------------------*/
 .logo{
     display: flex;
     font-size: 46px;
@@ -127,34 +126,25 @@ img {
         max-height: none;
     }
 }
-/*Topbar slut*/
 
+
+/*------------------------------------Kontakt os------------------------------------------*/
 /*Kontakt os*/
 .kontakt_os{
     padding: 40px;
-}
-
-/*Tlf og mail*/
-.tlf_mail{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
+    background-color: #A6CB9C;
 }
 
 .tlf{
-    padding-top: 70px;
-    padding-bottom: 20px;
+    padding-top: 60px;
 }
-
 .mail{
-    padding-top: 20px;
-    padding-bottom: 40px;
+    padding-top: 40px;
+    padding-bottom: 60px;
 }
 
 /*Har du spørgsmål?*/
 .har_du_spoergsmaal{
-    padding-top: 30px;
     padding-bottom: 10px;
 }
 
@@ -168,10 +158,14 @@ img {
     background-color: #7ACDD0;
     border: 1px solid;
     border-radius: 5px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .send_knap {
-    padding-bottom: 30px;
+    padding-bottom: 50px;
 }
 
 
+/*--------------------------------Om os------------------------------*/
