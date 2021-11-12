@@ -183,6 +183,21 @@ img {
     background-size: 30px;
     margin-bottom: 1.5rem;
 }
+.indkøb label{
+    font-size: 26px;
+    font-family: Josefin Sans, sans-serif;
+}
+.indkøb input{
+    border-radius: 5px;
+    border: 1px solid;
+
+}
+.knp1{
+    background-color: #92D980;
+    color: #FFFFFF;
+    border: 1px solid;
+    border-radius: 5px;
+}
 
 @media all and (min-width:992px ){
     .nav{
