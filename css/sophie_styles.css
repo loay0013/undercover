@@ -39,7 +39,7 @@ img {
     background-color: lightcoral;
 }
 .text-primary{
-    color: red;
+    color: white;
 }
 .text-center{
     color: white;
@@ -79,21 +79,15 @@ img {
    align-content: center;
     display: flex;
     flex-direction: column;
-}
 
-.salgsbillede{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
 }
-
 
 .container, .row [class*='col']{
     transition: max-width .3s ease-in-out;
 }
 .navbar-container{
     position: absolute;
+
 }
 
 .toggle{
@@ -103,25 +97,25 @@ img {
 
 .coverbillede1{
     margin-top: 2rem;
-    height: 250px;
+    height: 275px;
     width: 150px;
 }
 
 .coverbillede2{
     margin-top: 2rem;
-    height: 250px;
+    height: 275px;
     width: 150px;
 }
 
 .coverbillede3{
     margin-top: 2rem;
-    height: 250px;
+    height: 275px;
     width: 150px;
 }
 
 .coverbillede4{
     margin-top: 2rem;
-    height: 250px;
+    height: 275px;
     width: 150px;
 }
 
@@ -142,9 +136,11 @@ img {
     background-color: lightgreen;
     color: white;
     height: 30px;
-    width: 100px;
+    width: 125px;
    text-align: center;
     margin-top: 0.5rem;
+    margin-bottom: 2rem;
+
 }
 
 .logo{
@@ -158,7 +154,7 @@ img {
 
 }
 .cole{
-    background-color: #CBD6E7;
+    background-color:#CBD6E7
 }
 .a1{
     padding-left: 10px;
@@ -188,6 +184,7 @@ img {
     transition: max-height .2s ease-in-out;
     overflow:hidden;
     max-height: 0;
+   background-color:#7ACDD0;
 
 }
 .container,.row[ class*='col']{
