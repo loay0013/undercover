@@ -89,14 +89,6 @@ img {
 }
 
 
-.image-small-small{
-    width: 75px;
-    height: 25px;
-    background-color: lightgreen;
-    display: flex;
-}
-
-
 .container, .row [class*='col']{
     transition: max-width .3s ease-in-out;
 }
@@ -146,7 +138,8 @@ img {
 }
 
 .kurv{
-    color: #f7fbff;
+    background-color: lightgreen;
+    color: white;
 }
 
 .logo{
