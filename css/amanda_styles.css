@@ -13,6 +13,13 @@ h1, h2, h3, h4, h5, h6 {
     padding: 0; /* Ingen indre margen fra overskrifter */
 }
 
+a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 39px;
+}
+
 ul, ol {
     margin: 2px 10px 2px 10px; /* Mindre margen på punkter */
     padding: 0; /* Ingen indre margen fra lister */
@@ -36,18 +43,129 @@ img {
 }
 
 
-.bg-primary{
-    background-color: #f7fbff;
-}
-
+/*Farver*/
 .text-primary{
-    color: #1d1d1d;
+    color: #333333;
 }
-
-.bg-secondary{
-    background-color: #9fe386;
-}
-
 .text-secondary{
-    color: #f7fbff;
+    color: #FFFFFF;
 }
+
+/*Skrifttyper*/
+.josefine_sans_regular{
+    font-family: "Josefin Sans";
+}
+.josefine_sans_light{
+    font-family: "Josefin Sans Light";
+}
+.josefine_sans_medium{
+    font-family: "Josefin Sans Medium";
+}
+
+
+/*------------------------------------Topbar---------------------------------------*/
+.logo{
+    display: flex;
+    font-size: 46px;
+    font-family: 'Sacramento', cursive;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.cole{
+    background-color: #CBD6E7;
+}
+
+.a1{
+    padding-left: 10px;
+}
+
+.bars{
+
+}
+.icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text_center{
+    text-align: center;
+}
+
+.pa{
+    margin: 5px 0 12px 0;
+}
+
+.nav.show{
+    transition: max-height .2s ease-in-out;
+    max-height: 100vh;
+    overflow:hidden ;
+}
+
+.nav{
+    transition: max-height .2s ease-in-out;
+    overflow:hidden;
+    max-height: 0;
+}
+
+.container,.row[ class*='col']{
+    transition: max-width.4s ease-in-out;
+}
+
+.toggle{
+    cursor: pointer;
+}
+
+.container > .row{
+    margin-top: 10rem;
+}
+
+@media all and (min-width:992px ) {
+    .nav {
+        max-height: none;
+    }
+}
+
+
+/*------------------------------------Kontakt os------------------------------------------*/
+/*Kontakt os*/
+.kontakt_os{
+    padding: 40px;
+    background-color: #A6CB9C;
+}
+
+.tlf{
+    padding-top: 60px;
+}
+.mail{
+    padding-top: 40px;
+    padding-bottom: 60px;
+}
+
+/*Har du spørgsmål?*/
+.har_du_spoergsmaal{
+    padding-bottom: 10px;
+}
+
+/*Spørgsmålskasser*/
+.tekst_boks{
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+.send_tekst{
+    background-color: #7ACDD0;
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.send_knap {
+    padding-bottom: 50px;
+}
+
+
+/*--------------------------------Om os------------------------------*/

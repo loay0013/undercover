@@ -92,6 +92,112 @@ img {
 .container > .row{
     margin-top: 10rem;
 }
+.h11{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size:30px;
+    color: #333333;
+}
+.p11{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 16px;
+    color: #333333;
+}
+.colar{
+    background-color:#CBD6E7;
+}
+.ny{
+    background-image:url(../images/Sunandwaves2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 150px;
+    margin-top: 0.8rem;
+}
+.text{
+    color: #FFFFFF;
+    font-size: 45px;
+    font-family: 'Pacifico', cursive;
+}
+.text2{
+    color: #FFFFFF;
+    font-size: 21px;
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+.btn1 {
+    background-color: #E4D0CD;
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+.input{
+    border: 1px solid;
+    border-radius: 5px;
+}
+.color2{
+    background-color: #F4F4F4;
+}
+.footer{
+    background-color: #333333;
+}
+
+.footer ul{
+    list-style-type: none;
+    font-size: 0.8rem;
+}
+.footer li{
+    color: #FFFFFF;
+    font-size: 13px;
+    font-family:Josefin Sans, sans-serif;
+}
+
+.footerSocial i{
+    color: #FFFFFF;
+    padding-right: 0.5rem;
+
+}
+.footer a{
+    color: #FFFFFF;
+    font-size: 13px;
+    font-family: Josefin Sans, sans-serif;
+
+}
+.iphon{
+    background-image: url(../images/iPhone_Showcase.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 320px;
+
+}
+.samsung{
+    background-image: url(../images/Samsung_Showcase.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 320px;
+}
+.btn2{
+    background-color: #FFFFFF;
+    color: #333333;
+    background-size: 30px;
+    margin-bottom: 1.5rem;
+}
+.indkøb label{
+    font-size: 26px;
+    font-family: Josefin Sans, sans-serif;
+}
+.indkøb input{
+    border-radius: 5px;
+    border: 1px solid;
+
+}
+.knp1{
+    background-color: #92D980;
+    color: #FFFFFF;
+    border: 1px solid;
+    border-radius: 5px;
+}
 
 @media all and (min-width:992px ){
     .nav{
