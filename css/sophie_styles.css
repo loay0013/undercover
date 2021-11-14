@@ -73,8 +73,8 @@ img {
 }
 
 .image-small{
-    width: 250px;
-    height: 200px;
+    width: 300px;
+    height: 400px;
     background-color: lightgrey;
    align-content: center;
     display: flex;
@@ -110,23 +110,27 @@ img {
 
 
 .coverbillede1{
-    height: 150px;
-    width: 125px;
+    margin-top: 2rem;
+    height: 250px;
+    width: 150px;
 }
 
 .coverbillede2{
-    height: 150px;
-    width: 100px;
+    margin-top: 2rem;
+    height: 250px;
+    width: 150px;
 }
 
 .coverbillede3{
-    height: 150px;
-    width: 100px;
+    margin-top: 2rem;
+    height: 250px;
+    width: 150px;
 }
 
 .coverbillede4{
-    height: 150px;
-    width: 100px;
+    margin-top: 2rem;
+    height: 250px;
+    width: 150px;
 }
 
 .image-small,.p{
