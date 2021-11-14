@@ -125,21 +125,26 @@ img {
     width: 150px;
 }
 
-.image-small,.p{
+.image-small,.p.h2{
     align-items: center;
+    margin-top: 0.5rem;
 
 }
-.image-small2,.p{
+
+.image-small,.h3{
     align-items: center;
-}
-.image-small-small,.p{
-    align-items: center;
+    margin-top: 2rem;
 
 }
+
 
 .kurv{
     background-color: lightgreen;
     color: white;
+    height: 30px;
+    width: 100px;
+   text-align: center;
+    margin-top: 0.5rem;
 }
 
 .logo{
