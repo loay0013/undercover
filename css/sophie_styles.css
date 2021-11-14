@@ -73,8 +73,8 @@ img {
 }
 
 .image-small{
-    width: 150px;
-    height: 400px;
+    width: 250px;
+    height: 200px;
     background-color: lightgrey;
    align-content: center;
     display: flex;
@@ -110,23 +110,23 @@ img {
 
 
 .coverbillede1{
-    height: 250px;
-    width: 175px;
+    height: 150px;
+    width: 125px;
 }
 
 .coverbillede2{
-    height: 250px;
-    width: 175px;
+    height: 150px;
+    width: 100px;
 }
 
 .coverbillede3{
-    height: 250px;
-    width: 175px;
+    height: 150px;
+    width: 100px;
 }
 
 .coverbillede4{
-    height: 250px;
-    width: 175px;
+    height: 150px;
+    width: 100px;
 }
 
 .image-small,.p{
