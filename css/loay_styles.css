@@ -41,11 +41,9 @@ img {
     height: auto; /* Højden skal tilpasse sig */
 }
 .logo{
-    display: flex;
     font-size: 46px;
     font-family: 'Sacramento', cursive;
     color: #FFFFFF;
-    text-align: center;
 
 
 
