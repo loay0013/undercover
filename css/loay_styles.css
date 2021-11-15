@@ -197,6 +197,14 @@ img {
     border: 1px solid;
     border-radius: 5px;
 }
+h1{
+    font-family: Josefin Sans, sans-serif;
+    font-size: 22px;
+}
+p{
+  font-size: 22px;
+    font-family:Josefin Sans, sans-serif;
+}
 
 @media all and (min-width:992px ){
     .nav{
