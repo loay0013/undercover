@@ -154,7 +154,7 @@ img {
 
 }
 .cole{
-    background-color:#CBD6E7
+    background-color:#CBD6E7;
 }
 .a1{
     padding-left: 10px;
@@ -184,7 +184,7 @@ img {
     transition: max-height .2s ease-in-out;
     overflow:hidden;
     max-height: 0;
-   background-color:#7ACDD0;
+   background-color:;
 
 }
 .container,.row[ class*='col']{

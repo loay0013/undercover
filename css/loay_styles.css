@@ -81,6 +81,7 @@ img {
     transition: max-height .2s ease-in-out;
     overflow:hidden;
     max-height: 0;
+    background-color: #CBD6E7;
 
 }
 .container,.row[ class*='col']{
