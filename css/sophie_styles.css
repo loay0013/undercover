@@ -27,6 +27,11 @@ p {
     margin: 0; /* Ingen ydre margen fra paragraffer */
     padding: 0; /* Ingen indre margen fra paragraffer */
 }
+.logo{
+    font-size: 46px;
+    font-family: 'Sacramento', cursive;
+    color: #FFFFFF;
+}
 
 .nava{
     text-decoration: none;
@@ -56,8 +61,17 @@ img {
 }
 
 .container-fluid{
-    height: 250px;
+    height: 300px;
+}
 
+.container-fluid,.h1{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 30px;
+}
+
+.container-fluid,.p{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
 }
 
 .container-fluid-2{
@@ -74,16 +88,12 @@ img {
     justify-content: center;
 }
 
-.image-large{
-    min-height: 250px;
-    background-color: lightcoral;
-}
 
 .image-small{
     min-width: 300px;
     min-height: 400px;
     background-color: white;
-   align-content: center;
+    align-items: center;
     display: flex;
     flex-direction: column;
 
