@@ -1,4 +1,4 @@
-* {
+* { /* Gælder alt på hele siden */
     box-sizing: border-box; /* Bokse har altid den størrelse man giver uanset om der tilføjes margen, padding mv. */
 }
 
@@ -27,10 +27,249 @@ p {
     margin: 0; /* Ingen ydre margen fra paragraffer */
     padding: 0; /* Ingen indre margen fra paragraffer */
 }
+.logo{
+    font-size: 46px;
+    font-family: 'Sacramento', cursive;
+    color: #FFFFFF;
+}
+
+.nava{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 39px;
+}
 
 /* Sikrer billeder er responsive */
 img {
     display: block; /* Billeder er et element (laver linjeskift) */
     max-width: 100%; /* Bredde må maks fylde 100% */
     height: auto; /* Højden skal tilpasse sig */
+}
+
+.bg-primary{
+    background-color: #8DCCD3;
+}
+.text-primary{
+    color: white;
+}
+.text-white{
+    color: white;
+}
+.bg-secondary{
+    background-color: lightgrey;
+}
+
+.container-fluid{
+    height: 300px;
+}
+
+.container-fluid,.h1{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 30px;
+}
+
+.container-fluid,.p{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+}
+
+.container-fluid-2{
+    height: 100px;
+}
+.container-fluid-3{
+    height: 150px;
+}
+
+.text-secondary{
+    flex-direction: column;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+
+
+
+.image-small{
+    min-width: 300px;
+    min-height: 400px;
+    background-color: white;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+.container, .row [class*='col']{
+    transition: max-width .3s ease-in-out;
+}
+.navbar-container{
+    position: absolute;
+
+}
+
+.toggle{
+    cursor:pointer;
+}
+
+
+.coverbillede1{
+    margin-top: 2rem;
+    height: 275px;
+    width: 150px;
+}
+
+.coverbillede2{
+    margin-top: 2rem;
+    height: 275px;
+    width: 150px;
+}
+
+.coverbillede3{
+    margin-top: 2rem;
+    height: 275px;
+    width: 150px;
+}
+
+.coverbillede4{
+    margin-top: 2rem;
+    height: 275px;
+    width: 150px;
+}
+
+.image-small,.p.h2{
+    align-items: center;
+    margin-top: 0.5rem;
+    font-family:'Josefin Sans', sans-serif;
+
+}
+
+.image-small,.h3{
+    align-items: center;
+    margin-top: 2rem;
+
+}
+
+.text {
+    margin-top: 5rem;
+}
+
+.text2{
+    margin-top: 1rem;
+}
+.kurv{
+    background-color: lightgreen;
+    color: white;
+    height: auto;
+    width: 125px;
+    text-align: center;
+    margin-top: 0.5rem;
+    margin-bottom: 2rem;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 10px 0;
+    border-radius: 5px;
+
+
+}
+
+.logo{
+    display: flex;
+    font-size: 46px;
+    font-family: 'Sacramento', cursive;
+    color: #FFFFFF;
+    text-align: center;
+
+
+
+}
+.cole{
+    background-color:#CBD6E7;
+}
+.a1{
+    padding-left: 10px;
+}
+.bars{
+
+}
+.icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text_center{
+    text-align: center;
+}
+
+.pa{
+    margin: 5px 0 12px 0;
+}
+.nav.show{
+    transition: max-height .2s ease-in-out;
+    max-height: 100vh;
+    overflow:hidden ;
+}
+.nav{
+    transition: max-height .2s ease-in-out;
+    overflow:hidden;
+    max-height: 0;
+
+
+}
+.container,.row[ class*='col']{
+    transition: max-width.4s ease-in-out;
+}
+
+.container > .row{
+    margin-top: 10rem;
+}
+
+
+.color2{
+    background-color: #F4F4F4;
+}
+.footer{
+    background-color: #333333;
+}
+
+.footer ul{
+    list-style-type: none;
+    font-size: 0.8rem;
+}
+.footer li{
+    color: #FFFFFF;
+    font-size: 13px;
+    font-family:Josefin Sans, sans-serif;
+}
+
+.footerSocial i{
+    color: #FFFFFF;
+    padding-right: 0.5rem;
+
+}
+.footer a{
+    color: #FFFFFF;
+    font-size: 13px;
+    font-family: Josefin Sans, sans-serif;
+
+}
+
+@media all and (min-width: 322px) {
+    .container {
+
+    }
+
+    @media all and (min-width: 992px) {
+        .nav {
+            max-height: none;
+        }
+
+
+    }
 }
