@@ -61,6 +61,9 @@ img {
 .josefine_sans_medium{
     font-family: "Josefin Sans Medium";
 }
+.sacramento{
+    font-family: "Sacramento", cursive;
+}
 
 
 /*------------------------------------Kontakt os------------------------------------------*/
@@ -108,4 +111,8 @@ img {
 .om_os{
     padding: 40px;
     background-color: #f8cf8b;
+}
+
+.verden_kompost{
+    background-color: #CBD6E7;
 }
