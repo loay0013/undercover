@@ -27,6 +27,18 @@ p {
     margin: 0; /* Ingen ydre margen fra paragraffer */
     padding: 0; /* Ingen indre margen fra paragraffer */
 }
+.logo{
+    font-size: 46px;
+    font-family: 'Sacramento', cursive;
+    color: #FFFFFF;
+}
+
+.nava{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 39px;
+}
 
 /* Sikrer billeder er responsive */
 img {
@@ -49,8 +61,17 @@ img {
 }
 
 .container-fluid{
-    height: 250px;
+    height: 300px;
+}
 
+.container-fluid,.h1{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 30px;
+}
+
+.container-fluid,.p{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
 }
 
 .container-fluid-2{
@@ -67,18 +88,15 @@ img {
     justify-content: center;
 }
 
-.image-large{
-    min-height: 250px;
-    background-color: lightcoral;
-}
 
 .image-small{
     min-width: 300px;
     min-height: 400px;
     background-color: white;
-   align-content: center;
+    align-items: center;
     display: flex;
     flex-direction: column;
+
 
 }
 
@@ -122,6 +140,7 @@ img {
 .image-small,.p.h2{
     align-items: center;
     margin-top: 0.5rem;
+font-family:'Josefin Sans', sans-serif;
 
 }
 
@@ -131,7 +150,13 @@ img {
 
 }
 
+.text {
+    margin-top: 5rem;
+}
 
+.text2{
+    margin-top: 1rem;
+}
 .kurv{
     background-color: lightgreen;
     color: white;
@@ -140,6 +165,9 @@ img {
    text-align: center;
     margin-top: 0.5rem;
     margin-bottom: 2rem;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+
 
 }
 
@@ -193,6 +221,36 @@ img {
 
 .container > .row{
     margin-top: 10rem;
+}
+
+
+.color2{
+    background-color: #F4F4F4;
+}
+.footer{
+    background-color: #333333;
+}
+
+.footer ul{
+    list-style-type: none;
+    font-size: 0.8rem;
+}
+.footer li{
+    color: #FFFFFF;
+    font-size: 13px;
+    font-family:Josefin Sans, sans-serif;
+}
+
+.footerSocial i{
+    color: #FFFFFF;
+    padding-right: 0.5rem;
+
+}
+.footer a{
+    color: #FFFFFF;
+    font-size: 13px;
+    font-family: Josefin Sans, sans-serif;
+
 }
 
 @media all and (min-width: 322px)
