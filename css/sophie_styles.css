@@ -27,18 +27,13 @@ p {
     margin: 0; /* Ingen ydre margen fra paragraffer */
     padding: 0; /* Ingen indre margen fra paragraffer */
 }
-.logo{
-    font-size: 46px;
-    font-family: 'Sacramento', cursive;
-    color: #FFFFFF;
+
+
+.toggle{
+    cursor:pointer;
 }
 
-.nava{
-    text-decoration: none;
-    color: #FFFFFF;
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 39px;
-}
+
 
 /* Sikrer billeder er responsive */
 img {
@@ -47,7 +42,9 @@ img {
     height: auto; /* Højden skal tilpasse sig */
 }
 
-.bg-primary{
+
+                             /*Primary-items heri farve på text og bokse*/
+.bg-primary {
     background-color: lightcoral;
 }
 .text-primary{
@@ -59,6 +56,9 @@ img {
 .bg-secondary{
     background-color: lightgrey;
 }
+
+
+               /*Farvet Container med Teksten Samsung og Køb et lækkert cover til din Samsung telefon*/
 
 .container-fluid{
     height: 300px;
@@ -74,20 +74,8 @@ img {
     font-size: 20px;
 }
 
-.container-fluid-2{
-    height: 100px;
-}
-.container-fluid-3{
-    height: 150px;
-}
 
-.text-secondary{
-    flex-direction: column;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
+                                   /*Start på Shopbilleder samt indkøbs tekst(pris...)*/
 
 .image-small{
     min-width: 300px;
@@ -103,15 +91,15 @@ img {
 .container, .row [class*='col']{
     transition: max-width .3s ease-in-out;
 }
-.navbar-container{
-    position: absolute;
-
+.container,.row[ class*='col']{
+    transition: max-width.4s ease-in-out;
 }
 
-.toggle{
-    cursor:pointer;
+.container > .row{
+    margin-top: 10rem;
 }
 
+/*Rødt Cover-Billede*/
 
 .coverbillede1{
     margin-top: 2rem;
@@ -119,46 +107,38 @@ img {
     width: 150px;
 }
 
+/*Orange Cover-Billede*/
+
 .coverbillede2{
     margin-top: 2rem;
     height: 275px;
     width: 150px;
 }
+/*Grønt Cover-Billede*/
 
 .coverbillede3{
     margin-top: 2rem;
     height: 275px;
     width: 150px;
 }
+/*Grå Cover-Billede*/
 
 .coverbillede4{
     margin-top: 2rem;
     height: 275px;
     width: 150px;
 }
-
-.image-small,.p.h2{
-    align-items: center;
-    margin-top: 0.5rem;
-font-family:'Josefin Sans', sans-serif;
-
-}
-
-.image-small,.h3{
-    align-items: center;
-    margin-top: 2rem;
-
-}
-
+/*Margin på "Samsung" text i farvet container*/
 .text {
     margin-top: 5rem;
 }
 
+/*Margin på Køb...-Text i farvet container*/
 .text2{
     margin-top: 1rem;
 }
 
-
+/*Læg i Kurv (linker til indkøbskurv)*/
 .kurv{
     background-color: lightgreen;
     color: white;
@@ -172,9 +152,11 @@ font-family:'Josefin Sans', sans-serif;
     text-decoration: none;
     padding: 10px 0;
     border-radius: 5px;
-
-
 }
+
+
+
+                                                 /*CSS til Topbar*/
 
 .logo{
     display: flex;
@@ -182,9 +164,6 @@ font-family:'Josefin Sans', sans-serif;
     font-family: 'Sacramento', cursive;
     color: #FFFFFF;
     text-align: center;
-
-
-
 }
 .cole{
     background-color:#CBD6E7;
@@ -192,8 +171,12 @@ font-family:'Josefin Sans', sans-serif;
 .a1{
     padding-left: 10px;
 }
-.bars{
 
+.nava{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 39px;
 }
 .icon{
     display: flex;
@@ -217,16 +200,14 @@ font-family:'Josefin Sans', sans-serif;
     transition: max-height .2s ease-in-out;
     overflow:hidden;
     max-height: 0;
-
+}
+.navbar-container{
+    position: absolute;
 
 }
-.container,.row[ class*='col']{
-    transition: max-width.4s ease-in-out;
-}
 
-.container > .row{
-    margin-top: 10rem;
-}
+
+                                               /*CSS Til Footer*/
 
 
 .color2{
@@ -258,10 +239,11 @@ font-family:'Josefin Sans', sans-serif;
 
 }
 
-@media all and (min-width: 322px) {
-    .container {
+                                                      /*mediaqueries*/
 
-    }
+
+@media all and (min-width: 322px) {
+
 
     @media all and (min-width: 992px) {
         .nav {
