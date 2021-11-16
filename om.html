@@ -17,6 +17,7 @@
     <meta name="author" content="Amanda, Loay, Mikkel, Sophie">
     <meta name="copyright" content="Skoleprojekt">
 
+
     <!--Links til fonts og ikoner-->
     <script src="https://kit.fontawesome.com/6e96c3bdd8.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -42,6 +43,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Pacifico&display=swap" rel="stylesheet">
 
+
     <!-- Sikrer man kan benytte CSS ved at tilkoble en CSS fil -->
     <link href="css/mmdgrid.css" rel="stylesheet" type="text/css">
     <link href="css/amanda_styles.css" rel="stylesheet" type="text/css">
@@ -64,7 +66,6 @@
         <!--Topbar-->
         <div class="container-fluid h-auto navbar-container cole">
             <div class="navbar row p-3">
-
                 <div class="col-2 d-flex d-lg-none">
                     <div class="toggle d-flex align-items-center pa">
                         <svg xmlns="http://www.w3.org/2000/svg" width="30" height="21" viewBox="0 0 30 21">
@@ -77,21 +78,20 @@
                                       stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
                             </g>
                         </svg>
-
                     </div>
                 </div>
 
                 <div class="col-8 col-lg-4 text-center">
                     <h1 class="logo">Ocean Case</h1>
                 </div>
-                <div class="col-2 d-flex justify-content-end d-lg-none align-items-center pa">
 
+                <div class="col-2 d-flex justify-content-end d-lg-none align-items-center pa">
                     <a href="indkoebskurv.html" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="29.956" height="25.844" viewBox="0 0 29.956 25.844">
                         <path id="Icon_material-shopping-basket" data-name="Icon material-shopping-basket"
                               d="M23.572,12.534,17.608,3.6a1.352,1.352,0,0,0-1.13-.572,1.331,1.331,0,0,0-1.13.586L9.384,12.534H2.862A1.366,1.366,0,0,0,1.5,13.9a1.147,1.147,0,0,0,.054.368L5.013,26.886a2.708,2.708,0,0,0,2.614,1.988h17.7a2.736,2.736,0,0,0,2.628-1.988l3.459-12.622.041-.368a1.366,1.366,0,0,0-1.362-1.362Zm-11.179,0,4.085-5.991,4.085,5.991Zm4.085,10.893A2.723,2.723,0,1,1,19.2,20.7,2.731,2.731,0,0,1,16.478,23.427Z"
                               transform="translate(-1.5 -3.03)" fill="#fff"/>
-                    </svg></a></div>
-
+                    </svg></a>
+                </div>
 
                 <div class="nav col-12 col-lg-8">
                     <div class="row justify-content-end">
@@ -100,7 +100,7 @@
                         <div class="col-lg-auto p-3 text-start a1"><a href="kontakt.html">Kontakt os</a></div>
                         <div class="col-lg-auto p-3 text-start a1"><a href="om.html">Om os</a></div>
                         <div class="col-lg-auto p-3 text-start a1"><a href="login.html">Login</a></div>
-                        <div class="col-lg-auto p-3 text-start a1 d-none"><a href="indkoebskurv.html" target="_blank">
+                        <div class="col-lg-auto p-3 text-start a1 d-none d-lg-block"><a href="indkoebskurv.html" target="_blank">
                             <svg xmlns="http://www.w3.org/2000/svg" width="29.956" height="25.844" viewBox="0 0 29.956 25.844">
                                 <path id="Icon_material-shopping-basket" data-name="Icon material-shopping-basket"
                                       d="M23.572,12.534,17.608,3.6a1.352,1.352,0,0,0-1.13-.572,1.331,1.331,0,0,0-1.13.586L9.384,12.534H2.862A1.366,1.366,0,0,0,1.5,13.9a1.147,1.147,0,0,0,.054.368L5.013,26.886a2.708,2.708,0,0,0,2.614,1.988h17.7a2.736,2.736,0,0,0,2.628-1.988l3.459-12.622.041-.368a1.366,1.366,0,0,0-1.362-1.362Zm-11.179,0,4.085-5.991,4.085,5.991Zm4.085,10.893A2.723,2.723,0,1,1,19.2,20.7,2.731,2.731,0,0,1,16.478,23.427Z"
@@ -109,9 +109,15 @@
                         </a></div>
                     </div>
                 </div>
-
             </div>
         </div>
+
+
+        <!--Farvet boks med teksten "Kontakt os"-->
+        <div class="container-fluid om_os josefine_sans_medium text-center text-secondary">
+            <h1>Om os</h1>
+        </div>
+
 
         <!--Footer-->
         <div class="d-flex justify-content-evenly color2 p-3 align-items-center">
@@ -175,7 +181,6 @@
                       d="M9.578,13.3A3.207,3.207,0,0,1,7,14.535a3.717,3.717,0,0,1,.921-2.7A3.847,3.847,0,0,1,10.478,10.5,3.959,3.959,0,0,1,9.578,13.3Zm.889,1.428c-1.421-.083-2.642.819-3.314.819-.688,0-1.72-.777-2.847-.755a4.2,4.2,0,0,0-3.57,2.194C-.8,19.657.337,23.61,1.819,25.783c.727,1.076,1.6,2.255,2.744,2.214,1.083-.041,1.513-.714,2.823-.714s1.7.714,2.847.694c1.186-.022,1.932-1.076,2.659-2.153a9.447,9.447,0,0,0,1.188-2.474A3.893,3.893,0,0,1,11.766,19.8a3.978,3.978,0,0,1,1.873-3.332,4.038,4.038,0,0,0-3.172-1.74Zm8.22-3V27.863h2.478V22.348h3.428a5.092,5.092,0,0,0,5.331-5.318,5.032,5.032,0,0,0-5.249-5.3H18.684Zm2.478,2.111H24.02c2.148,0,3.375,1.157,3.375,3.2s-1.227,3.209-3.386,3.209H21.162V13.84ZM34.448,27.986A4.086,4.086,0,0,0,38.1,25.927h.05v1.937h2.292v-8.03C40.445,17.506,38.6,16,35.768,16c-2.631,0-4.574,1.522-4.646,3.611h2.231A2.174,2.174,0,0,1,35.7,17.971c1.515,0,2.364.714,2.364,2.028v.889l-3.091.188c-2.875.175-4.432,1.365-4.432,3.434,0,2.089,1.607,3.476,3.91,3.476Zm.666-1.913c-1.321,0-2.161-.642-2.161-1.624,0-1.015.81-1.6,2.356-1.7l2.751-.175v.91a2.7,2.7,0,0,1-2.947,2.587Zm8.392,6.179c2.415,0,3.55-.932,4.541-3.757L52.4,16.159H49.879l-2.917,9.53h-.05l-2.917-9.53H41.406L45.6,27.9l-.225.714a1.971,1.971,0,0,1-2.087,1.675c-.194,0-.572-.022-.727-.041v1.937a6.757,6.757,0,0,0,.943.061Z"
                       transform="translate(-0.004 -10.5)"/>
             </svg>
-
         </div>
 
         <div class="footer p-3">
@@ -185,8 +190,6 @@
                     <li class="p-1">Levering</li>
                     <li class="p-1">Returnering</li>
                 </ul>
-
-
                 <div class="footerSocial d-flex align-items-center">
                     <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-square fa-2x"></i></a>
                     <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram-square fa-2x"></i></a>
@@ -199,7 +202,6 @@
             const nav = document.querySelector('.nav')
             toggle.addEventListener('click', () => nav.classList.toggle('show'));
         </script>
-
     </div>
 </div>
 
