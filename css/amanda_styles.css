@@ -113,6 +113,17 @@ img {
     background-color: #f8cf8b;
 }
 
+.verden_tekst{
+    margin-top: 70px;
+}
+
 .verden_kompost{
     background-color: #CBD6E7;
+}
+
+.verden_center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
