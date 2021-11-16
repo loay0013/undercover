@@ -150,9 +150,13 @@ font-family:'Josefin Sans', sans-serif;
 
 }
 
+.text {
+    margin-top: 5rem;
+}
 
-
-
+.text2{
+    margin-top: 1rem;
+}
 .kurv{
     background-color: lightgreen;
     color: white;
