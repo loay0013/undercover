@@ -202,6 +202,36 @@ img {
     margin-top: 10rem;
 }
 
+
+.color2{
+    background-color: #F4F4F4;
+}
+.footer{
+    background-color: #333333;
+}
+
+.footer ul{
+    list-style-type: none;
+    font-size: 0.8rem;
+}
+.footer li{
+    color: #FFFFFF;
+    font-size: 13px;
+    font-family:Josefin Sans, sans-serif;
+}
+
+.footerSocial i{
+    color: #FFFFFF;
+    padding-right: 0.5rem;
+
+}
+.footer a{
+    color: #FFFFFF;
+    font-size: 13px;
+    font-family: Josefin Sans, sans-serif;
+
+}
+
 @media all and (min-width: 322px)
     .container{
 
