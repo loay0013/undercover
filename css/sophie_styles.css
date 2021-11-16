@@ -28,6 +28,13 @@ p {
     padding: 0; /* Ingen indre margen fra paragraffer */
 }
 
+.nava{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 39px;
+}
+
 /* Sikrer billeder er responsive */
 img {
     display: block; /* Billeder er et element (laver linjeskift) */
