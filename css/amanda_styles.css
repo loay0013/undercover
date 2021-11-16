@@ -61,48 +61,8 @@ img {
 .josefine_sans_medium{
     font-family: "Josefin Sans Medium";
 }
-
-
-/*------------------------------------Topbar---------------------------------------*/
-.logo{
-    font-size: 46px;
-    font-family: 'Sacramento', cursive;
-    color: #FFFFFF;
-}
-a{
-    text-decoration: none;
-    color: #FFFFFF;
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 29px;
-}
-.cole{
-    background-color: #CBD6E7;
-}
-.a1{
-    padding-left: 10px;
-}
-.pa{
-    margin: 5px 0 12px 0;
-}
-.nav.show{
-    transition: max-height .2s ease-in-out;
-    max-height: 100vh;
-    overflow:hidden ;
-}
-.nav{
-    transition: max-height .2s ease-in-out;
-    overflow:hidden;
-    max-height: 0;
-    background-color: #CBD6E7;
-}
-.container,.row[ class*='col']{
-    transition: max-width.4s ease-in-out;
-}
-.toggle{
-    cursor: pointer;
-}
-.container > .row{
-    margin-top: 10rem;
+.sacramento{
+    font-family: "Sacramento", cursive;
 }
 
 
@@ -150,32 +110,9 @@ a{
 /*Om os*/
 .om_os{
     padding: 40px;
-    background-color: #A6CB9C;
+    background-color: #f8cf8b;
 }
 
-
-/*--------------------------------Footer------------------------------*/
-.color2{
-    background-color: #F4F4F4;
-}
-.footer{
-    background-color: #333333;
-}
-.footer ul{
-    list-style-type: none;
-    font-size: 0.8rem;
-}
-.footer li{
-    color: #FFFFFF;
-    font-size: 13px;
-    font-family:Josefin Sans, sans-serif;
-}
-.footerSocial i{
-    color: #FFFFFF;
-    padding-right: 0.5rem;
-}
-.footer a{
-    color: #FFFFFF;
-    font-size: 13px;
-    font-family: Josefin Sans, sans-serif;
+.verden_kompost{
+    background-color: #CBD6E7;
 }
