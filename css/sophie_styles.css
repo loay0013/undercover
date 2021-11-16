@@ -1,4 +1,4 @@
- { /* Gælder alt på hele siden */
+* { /* Gælder alt på hele siden */
     box-sizing: border-box; /* Bokse har altid den størrelse man giver uanset om der tilføjes margen, padding mv. */
 }
 
@@ -212,6 +212,7 @@ font-family:'Josefin Sans', sans-serif;
     transition: max-height .2s ease-in-out;
     overflow:hidden;
     max-height: 0;
+   background-color:;
 
 }
 .container,.row[ class*='col']{
@@ -252,11 +253,11 @@ font-family:'Josefin Sans', sans-serif;
 
 }
 
-@media all and (min-width: 322px){
+@media all and (min-width: 322px)
     .container{
 
     }
-}
+
 @media all and (min-width: 992px){
     .nav{
         max-height: none;
