@@ -13,7 +13,6 @@ h1, h2, h3, h4, h5, h6 {
     padding: 0; /* Ingen indre margen fra overskrifter */
 }
 
-
 ul, ol {
     margin: 2px 10px 2px 10px; /* Mindre margen på punkter */
     padding: 0; /* Ingen indre margen fra lister */
@@ -35,7 +34,6 @@ img {
     max-width: 100%; /* Bredde må maks fylde 100% */
     height: auto; /* Højden skal tilpasse sig */
 }
-/*nav*/
 .logo{
     font-size: 46px;
     font-family: 'Sacramento', cursive;
@@ -56,7 +54,7 @@ a{
 }
 
 .pa{
-   margin: 5px 0 12px 0;
+    margin: 5px 0 12px 0;
 }
 .nav.show{
     transition: max-height .2s ease-in-out;
@@ -79,51 +77,6 @@ a{
 .container > .row{
     margin-top: 10rem;
 }
-/*text*/
-.h11{
-    font-family: 'Josefin Sans', sans-serif;
-    font-size:30px;
-    color: #333333;
-}
-.p11{
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 16px;
-    color: #333333;
-}
-.colar{
-    background-color:#CBD6E7;
-}
-.ny{
-    background-image:url(../images/Sunandwaves2.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 150px;
-    margin-top: 0.8rem;
-}
-.text{
-    color: #FFFFFF;
-    font-size: 45px;
-    font-family: 'Pacifico', cursive;
-}
-.text2{
-    color: #FFFFFF;
-    font-size: 21px;
-    font-family: 'Josefin Sans', sans-serif;
-
-}
-.btn1 {
-    background-color: #E4D0CD;
-    border: 1px solid;
-    border-radius: 10px;
-    padding: 5px;
-}
-
-.input{
-    border: 1px solid;
-    border-radius: 5px;
-}
-/*footer*/
 .color2{
     background-color: #F4F4F4;
 }
@@ -151,61 +104,6 @@ a{
     font-size: 13px;
     font-family: Josefin Sans, sans-serif;
 }
-/*mellemside*/
-.iphon{
-    background-image: url(../images/iPhone_Showcase.jpeg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 320px;
-
-}
-.samsung{
-    background-image: url(../images/Samsung_Showcase.jpeg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 320px;
-}
-.btn2{
-    background-color: #FFFFFF;
-    color: #333333;
-    background-size: 30px;
-    margin-bottom: 1.5rem;
-    border-radius: 5px;
-    padding: 5px;
-}
-/*indkøb*/
-.indkøb label{
-    font-size: 26px;
-    font-family: Josefin Sans, sans-serif;
-}
-.indkøb input{
-    border-radius: 5px;
-    border: 1px solid;
-
-}
-.knp1{
-    background-color: #92D980;
-    color: #FFFFFF;
-    border: 1px solid;
-    border-radius: 5px;
-}
-h1{
-    font-family: Josefin Sans, sans-serif;
-    font-size: 22px;
-}
-p{
-  font-size: 22px;
-    font-family:Josefin Sans, sans-serif;
-}
-.show1{
-
-    object-fit: cover;
-    width: 100vw;
-    height: 400px;
-}
-
 @media all and (min-width:992px ){
     .nav{
         max-height: none;
