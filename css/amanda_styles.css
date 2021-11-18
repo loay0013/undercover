@@ -110,20 +110,24 @@ img {
 /*Om os*/
 .om_os{
     padding: 40px;
-    background-color: #f8cf8b;
-}
-
-.verden_tekst{
-    margin-top: 70px;
+    background-color: #AC97C6;
 }
 
 .verden_kompost{
     background-color: #CBD6E7;
 }
 
-.verden_center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+
+@media screen and (min-width: 992px){
+    .verden_tekst{
+        margin-top: 70px;
+    }
+    .verden_center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
 }
+
+
