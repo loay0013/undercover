@@ -209,6 +209,28 @@ img {
 
 }
 
+.send_tekst {
+    background-color: #92D980;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    font-family: "Josefin Sans";
+    font-size: 20px;
+
+}
+
+.send_tekst2 {
+    background-color: #EA8897;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    font-family: "Josefin Sans";
+    font-size: 18px;
+}
+
+.password {
+    font-size: 18px;
+}
 
 
 
