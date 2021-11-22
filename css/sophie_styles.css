@@ -85,9 +85,17 @@ img {
     display: flex;
     flex-direction: column;
 
-
 }
 
+.image-small,p{
+    font-size: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.image-small,h2{
+    font-size: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+}
 .container, .row [class*='col']{
     transition: max-width .3s ease-in-out;
 }
@@ -128,6 +136,8 @@ img {
     height: 275px;
     width: 150px;
 }
+
+
 /*Margin på "Samsung" text i farvet container*/
 .text {
     margin-top: 5rem;
