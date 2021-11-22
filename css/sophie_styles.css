@@ -61,7 +61,7 @@ img {
                /*Farvet Container med Teksten Samsung og Køb et lækkert cover til din Samsung telefon*/
 
 .container-fluid{
-    height: 300px;
+    height: 250px;
 }
 
 .container-fluid,.h1{
@@ -73,6 +73,7 @@ img {
     font-family: 'Josefin Sans', sans-serif;
     font-size: 20px;
 }
+
 
 
                                    /*Start på Shopbilleder samt indkøbs tekst(pris...)*/
@@ -200,33 +201,22 @@ img {
                                                  /*CSS til Topbar*/
 
 .logo{
-    display: flex;
     font-size: 46px;
     font-family: 'Sacramento', cursive;
     color: #FFFFFF;
-    text-align: center;
 }
-.cole{
-    background-color:#CBD6E7;
-}
-.a1{
-    padding-left: 10px;
-}
-
-.nava{
+a{
     text-decoration: none;
     color: #FFFFFF;
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 39px;
-}
-.icon{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    font-size: 29px;
 }
 
-.text_center{
-    text-align: center;
+.cole{
+    background-color: #CBD6E7;
+}
+.a1{
+    padding-left: 10px;
 }
 
 .pa{
@@ -241,11 +231,10 @@ img {
     transition: max-height .2s ease-in-out;
     overflow:hidden;
     max-height: 0;
-}
-.navbar-container{
-    position: absolute;
+    background-color: #CBD6E7;
 
 }
+
 
 
                                                /*CSS Til Footer*/

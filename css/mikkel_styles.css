@@ -213,48 +213,39 @@ img {
 
 
                                                     /*Css til topbar*/
-.logo {
-    display: flex;
+.logo{
     font-size: 46px;
     font-family: 'Sacramento', cursive;
     color: #FFFFFF;
-    text-align: center;
 }
-
-
-.nava{
+a{
     text-decoration: none;
     color: #FFFFFF;
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 39px;
+    font-size: 29px;
 }
 
-.navbar-container{
-    position: absolute;
+.cole{
+    background-color: #CBD6E7;
+}
+.a1{
+    padding-left: 10px;
+}
 
+.pa{
+    margin: 5px 0 12px 0;
 }
 .nav.show{
     transition: max-height .2s ease-in-out;
     max-height: 100vh;
     overflow:hidden ;
 }
-.nav {
+.nav{
     transition: max-height .2s ease-in-out;
-    overflow: hidden;
+    overflow:hidden;
     max-height: 0;
-}
-.pa{
-    margin: 5px 0 12px 0;
-}
+    background-color: #CBD6E7;
 
-.text_center{
-    text-align: center;
-}
-.cole{
-    background-color:#CBD6E7;
-}
-.a1{
-    padding-left: 10px;
 }
 
 
