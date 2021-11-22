@@ -128,7 +128,27 @@ img {
         margin-right: auto;
         width: 50%;
     }
+    .display_desktop{
+        display: flex;
+    }
+
+
+    .overskrift_tekst{
+        order: 1;
+    }
+
+    .lilla_tekst{
+        order: 2;
+        background-color: #FFFFFF;
+    }
+
+    .verdenskort_billede{
+        order: 3;
+    }
 }
+
+
+
 
 
 /*-------------------------------Tak for spørgsmål---------------------------*/
