@@ -73,9 +73,11 @@ img {
     background-color: #A6CB9C;
 }
 
+/*Telefon og mail*/
 .tlf{
     padding-top: 60px;
 }
+
 .mail{
     padding-top: 40px;
     padding-bottom: 60px;
@@ -92,6 +94,7 @@ img {
     border-radius: 5px;
 }
 
+/*Send knappen*/
 .send_tekst{
     background-color: #7ACDD0;
     border: 1px solid;
@@ -113,25 +116,27 @@ img {
     background-color: #AC97C6;
 }
 
+/*Lilla baggrundsfarve*/
 .verden_kompost{
     background-color: #CBD6E7;
 }
 
-
+/*Media query til desktop*/
 @media screen and (min-width: 992px){
     .verden_tekst{
         margin-top: 70px;
     }
+
     .verden_center {
         display: block;
         margin-left: auto;
         margin-right: auto;
         width: 50%;
     }
+
     .display_desktop{
         display: flex;
     }
-
 
     .overskrift_tekst{
         order: 1;
@@ -148,10 +153,8 @@ img {
 }
 
 
-
-
-
 /*-------------------------------Tak for spørgsmål---------------------------*/
+/*Tilbage til forsiden-knappen*/
 .tilbage_knap {
     background-color: #f8bb60;
     border: 1px solid;
@@ -163,5 +166,5 @@ img {
 }
 
 .tilbage_knap_padding {
-    padding-bottom: 50px;
+    margin-bottom: 400px;
 }
