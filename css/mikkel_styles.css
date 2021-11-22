@@ -216,6 +216,7 @@ img {
     border: none;
     font-family: "Josefin Sans";
     font-size: 20px;
+    font-weight: bold;
 
 }
 
@@ -226,12 +227,25 @@ img {
     border: none;
     font-family: "Josefin Sans";
     font-size: 18px;
+    font-weight: bold;
 }
 
 .password {
     font-size: 18px;
+    font-weight: bold;
 }
 
+.password2 {
+    font-weight: bold;
+}
+
+.brugernavn {
+    font-weight: bold;
+}
+
+.tekst20 {
+    font-weight: bold;
+}
 
 
                                                     /*Css til topbar*/
