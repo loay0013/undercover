@@ -27,18 +27,11 @@ p {
     margin: 0; /* Ingen ydre margen fra paragraffer */
     padding: 0; /* Ingen indre margen fra paragraffer */
 }
-.logo{
-    font-size: 46px;
-    font-family: 'Sacramento', cursive;
-    color: #FFFFFF;
+.toggle{
+    cursor:pointer;
 }
 
-.nava{
-    text-decoration: none;
-    color: #FFFFFF;
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 39px;
-}
+
 
 /* Sikrer billeder er responsive */
 img {
@@ -46,6 +39,8 @@ img {
     max-width: 100%; /* Bredde må maks fylde 100% */
     height: auto; /* Højden skal tilpasse sig */
 }
+
+
 
 .bg-primary{
     background-color: #8DCCD3;
@@ -59,6 +54,12 @@ img {
 .bg-secondary{
     background-color: lightgrey;
 }
+
+
+
+
+
+               /*Den farvet container med teksten Iphone og Køb et lækkert cover til din Iphone*/
 
 .container-fluid{
     height: 300px;
@@ -74,6 +75,7 @@ img {
     font-size: 20px;
 }
 
+/*Bruger du disse?*/
 .container-fluid-2{
     height: 100px;
 }
@@ -81,16 +83,10 @@ img {
     height: 150px;
 }
 
-.text-secondary{
-    flex-direction: column;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
 
 
 
-
+/*Starten på Cover-salg-billederne*/
 
 .image-small{
     min-width: 300px;
@@ -111,19 +107,16 @@ img {
     font-family: 'Josefin Sans', sans-serif;
 }
 
-
 .container, .row [class*='col']{
     transition: max-width .3s ease-in-out;
 }
-.navbar-container{
-    position: absolute;
-
+.container,.row[ class*='col']{
+    transition: max-width.4s ease-in-out;
 }
 
-.toggle{
-    cursor:pointer;
+.container > .row {
+    margin-top: 10rem;
 }
-
 
 .coverbillede1{
     margin-top: 2rem;
@@ -186,15 +179,46 @@ img {
 
 }
 
-.logo{
+
+
+
+                                                    /*Css til topbar*/
+.logo {
     display: flex;
     font-size: 46px;
     font-family: 'Sacramento', cursive;
     color: #FFFFFF;
     text-align: center;
+}
 
 
+.nava{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 39px;
+}
 
+.navbar-container{
+    position: absolute;
+
+}
+.nav.show{
+    transition: max-height .2s ease-in-out;
+    max-height: 100vh;
+    overflow:hidden ;
+}
+.nav {
+    transition: max-height .2s ease-in-out;
+    overflow: hidden;
+    max-height: 0;
+}
+.pa{
+    margin: 5px 0 12px 0;
+}
+
+.text_center{
+    text-align: center;
 }
 .cole{
     background-color:#CBD6E7;
@@ -202,46 +226,24 @@ img {
 .a1{
     padding-left: 10px;
 }
-.bars{
-
-}
-.icon{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.text_center{
-    text-align: center;
-}
-
-.pa{
-    margin: 5px 0 12px 0;
-}
-.nav.show{
-    transition: max-height .2s ease-in-out;
-    max-height: 100vh;
-    overflow:hidden ;
-}
-.nav{
-    transition: max-height .2s ease-in-out;
-    overflow:hidden;
-    max-height: 0;
 
 
-}
-.container,.row[ class*='col']{
-    transition: max-width.4s ease-in-out;
-}
 
-.container > .row{
-    margin-top: 10rem;
-}
 
+
+
+
+
+
+
+
+
+/*Dette skulle gerne være det css, der er til footeren, da vi linker resten ind til Loays css*/
 
 .color2{
     background-color: #F4F4F4;
 }
+
 .footer{
     background-color: #333333;
 }
@@ -265,6 +267,10 @@ img {
     color: #FFFFFF;
     font-size: 13px;
     font-family: Josefin Sans, sans-serif;
+
+
+
+
 
 }
 
