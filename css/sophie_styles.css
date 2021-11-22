@@ -61,25 +61,21 @@ img {
                /*Farvet Container med Teksten Samsung og Køb et lækkert cover til din Samsung telefon*/
 
 
+.container-fluid{
+    height: 150px;
+    text-align: center;
+}
 .container-fluid,.h1{
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: "Josefin Sans Medium";
     font-size: 30px;
 }
 
 .container-fluid,.p{
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: "Josefin Sans Medium";
     font-size: 20px;
 }
 
-/*Margin på "Samsung" text i farvet container*/
-.text {
-    margin-top: 5rem;
-}
 
-/*Margin på Køb...-Text i farvet container*/
-.text2{
-    margin-top: 1rem;
-}
 
 
 
