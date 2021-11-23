@@ -65,13 +65,13 @@ img {
     height: 150px;
     text-align: center;
 }
-.container-fluid,.h1{
+.container-fluid,.p1{
     font-family: "Josefin Sans Medium";
-    font-size: 30px;
+    font-size: 45px;
 }
 
 .container-fluid,.p{
-    font-family: "Josefin Sans Medium";
+    font-family: "Josefin Sans";
     font-size: 20px;
 }
 
