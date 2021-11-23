@@ -174,9 +174,8 @@ a{
     background-color: #FFFFFF;
     color: #333333;
     background-size: 30px;
-    margin-bottom: 1.5rem;
     border-radius: 5px;
-    padding: 5px;
+    padding: 6px;
 }
 /*indkøb*/
 .indkøb label{
@@ -197,6 +196,7 @@ a{
 h1{
     font-family: Josefin Sans, sans-serif;
     font-size: 22px;
+
 }
 p{
   font-size: 22px;
@@ -208,6 +208,16 @@ p{
     width: 100vw;
     height: 400px;
 }
+.text22{
+    font-family: Josefin Sans, sans-serif;
+    font-size:22px;
+    font-weight: bold;
+}
+.text33{
+    font-family: Josefin Sans, sans-serif;
+    font-size: 22px;
+    font-weight: normal;
+}
 
 @media all and (min-width:992px ){
     .nav{
@@ -215,3 +225,4 @@ p{
     }
 
 }
+
