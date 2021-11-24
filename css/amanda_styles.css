@@ -53,7 +53,7 @@ img {
 
 /*Skrifttyper*/
 .josefine_sans_regular{
-    font-family: "Josefin Sans";
+    font-family: 'Josefin Sans', sans-serif;
 }
 .josefine_sans_light{
     font-family: "Josefin Sans Light";
@@ -71,16 +71,22 @@ img {
 .kontakt_os{
     padding: 60px;
     background-color: #A6CB9C;
+    font-family:'Josefin Sans', sans-serif;
+    font-weight: bold;
 }
 
 /*Telefon og mail*/
 .tlf{
     padding-top: 60px;
+    font-family:'Josefin Sans', sans-serif;
+    font-weight: lighter;
 }
 
 .mail{
     padding-top: 40px;
     padding-bottom: 60px;
+    font-family:'Josefin Sans', sans-serif;
+    font-weight: lighter;
 }
 
 /*Har du spørgsmål?*/
@@ -114,6 +120,8 @@ img {
 .om_os{
     padding: 60px;
     background-color: #AC97C6;
+    font-family:'Josefin Sans', sans-serif;
+    font-weight: bold;
 }
 
 /*Lilla baggrundsfarve*/
