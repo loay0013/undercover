@@ -121,12 +121,25 @@ img {
     background-color: #CBD6E7;
 }
 
+/*Shop nu knap*/
+.shop_nu {
+    background-color: #8ab6e3;
+    border: 1px solid;
+    border-radius: 5px;
+    border-color: #8ab6e3;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: medium;
+}
+
+.shop_nu_padding {
+    margin-bottom: 40px;
+    margin-left: 25px;
+}
+
 /*Media query til desktop*/
 @media screen and (min-width: 992px){
-    .verden_tekst{
-        margin-top: 70px;
-    }
-
     .verden_center {
         display: block;
         margin-left: auto;
