@@ -218,7 +218,17 @@ p{
     font-size: 22px;
     font-weight: normal;
 }
-
+.texth3{
+    font-size: 22px;
+    font-family: 'Sacramento', cursive;
+}
+.tilbage_knap {
+    background-color: #f8bb60;
+    border: 1px solid;
+    border-radius: 5px;
+    font-size: medium;
+    padding: 10px;
+}
 @media all and (min-width:992px ){
     .nav{
         max-height: none;
